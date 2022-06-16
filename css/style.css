@@ -37,12 +37,24 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: transform .3s;
 }
 
-.parrot img {
+.virada.carta {
+    transform: rotateY(180deg);
+}
+
+.escondido {
+    display: none;
+}
+
+img {
     width: 100px;
     height: 100px;
 }
+
+
 
 p {
     text-align: center;
